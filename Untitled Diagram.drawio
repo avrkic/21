@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T18:24:01.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="FjRiRCQKLL10nIW5fcM_" version="14.1.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-10T18:27:00.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="bIF3nlnUmyciMbd0THOC" version="14.1.9" type="github" pages="7">
   <diagram id="gBrkXUR-gjfU9QfjnMFt" name="Dijagram korištenja 21">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -345,6 +345,25 @@
       <root>
         <mxCell id="K_IwpK76xLawtsPIEpOv-0" />
         <mxCell id="K_IwpK76xLawtsPIEpOv-1" parent="K_IwpK76xLawtsPIEpOv-0" />
+        <mxCell id="dqcXJatsZG4Bt41SLbV--0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="K_IwpK76xLawtsPIEpOv-1">
+          <mxGeometry x="425" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dqcXJatsZG4Bt41SLbV--1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="dqcXJatsZG4Bt41SLbV--0" parent="K_IwpK76xLawtsPIEpOv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqcXJatsZG4Bt41SLbV--2" value="Zbrajaju se igračevi čipovi te uspoređuju s početnim brojem čipova" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="K_IwpK76xLawtsPIEpOv-1">
+          <mxGeometry x="310" y="90" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dqcXJatsZG4Bt41SLbV--3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="dqcXJatsZG4Bt41SLbV--2" parent="K_IwpK76xLawtsPIEpOv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqcXJatsZG4Bt41SLbV--4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="K_IwpK76xLawtsPIEpOv-1">
+          <mxGeometry x="425" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
