@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T18:34:16.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dUV059FadQRQ0c9qI04L" version="14.1.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-10T18:35:40.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kdjKU7PNDcalD0y8g5gb" version="14.1.9" type="github" pages="6">
   <diagram id="gBrkXUR-gjfU9QfjnMFt" name="Dijagram korištenja 21">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -525,14 +525,6 @@
         <mxCell id="dqcXJatsZG4Bt41SLbV--4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="K_IwpK76xLawtsPIEpOv-1" vertex="1">
           <mxGeometry x="425" y="190" width="30" height="30" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="EbAjEZBqyy6RiBGQ2Bc_" name="Dijagram podaktivnosti uloga">
-    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="vqXXIpPSc192GCfYLSQS-0" />
-        <mxCell id="vqXXIpPSc192GCfYLSQS-1" parent="vqXXIpPSc192GCfYLSQS-0" />
       </root>
     </mxGraphModel>
   </diagram>
