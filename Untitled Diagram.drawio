@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T18:17:45.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="P3BYjAyqIR1rzecit93W" version="14.1.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-10T18:24:01.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="FjRiRCQKLL10nIW5fcM_" version="14.1.9" type="github" pages="7">
   <diagram id="gBrkXUR-gjfU9QfjnMFt" name="Dijagram korištenja 21">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -244,6 +244,91 @@
       <root>
         <mxCell id="gmjp0lytDs2HwNS64izx-0" />
         <mxCell id="gmjp0lytDs2HwNS64izx-1" parent="gmjp0lytDs2HwNS64izx-0" />
+        <mxCell id="_poeveNt0TA6JiXaJZWK-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="385" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="_poeveNt0TA6JiXaJZWK-0" parent="gmjp0lytDs2HwNS64izx-1" target="_poeveNt0TA6JiXaJZWK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-2" value="Igra zahtjeva ulog" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="340" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="_poeveNt0TA6JiXaJZWK-2" parent="gmjp0lytDs2HwNS64izx-1" target="_poeveNt0TA6JiXaJZWK-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-4" value="Unos uloga" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="340" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="_poeveNt0TA6JiXaJZWK-4" parent="gmjp0lytDs2HwNS64izx-1" target="_poeveNt0TA6JiXaJZWK-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-6" value="Igra provjerava ulog" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="340" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="_poeveNt0TA6JiXaJZWK-6" parent="gmjp0lytDs2HwNS64izx-1" target="_poeveNt0TA6JiXaJZWK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-11" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="360" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-12" value="Igrač nema dovoljno žetona" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="_poeveNt0TA6JiXaJZWK-11" parent="gmjp0lytDs2HwNS64izx-1" target="_poeveNt0TA6JiXaJZWK-2">
+          <mxGeometry x="-0.0385" y="-10" relative="1" as="geometry">
+            <mxPoint x="540" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="410" />
+              <mxPoint x="560" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-13" value="Igrač ima dovoljno žetona" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="_poeveNt0TA6JiXaJZWK-11" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-14" value="Igrač dobije kartu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="340" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="_poeveNt0TA6JiXaJZWK-14" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-16" value="Računalo dobije kartu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="340" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="_poeveNt0TA6JiXaJZWK-16" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-18" value="Igrač dobije kartu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="340" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="_poeveNt0TA6JiXaJZWK-18" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-20" value="Računalo dobije kartu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="340" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="_poeveNt0TA6JiXaJZWK-20" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_poeveNt0TA6JiXaJZWK-22" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="gmjp0lytDs2HwNS64izx-1">
+          <mxGeometry x="385" y="890" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
