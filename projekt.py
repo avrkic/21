@@ -28,7 +28,7 @@ elif sum(dilerove_karte) > 21:
   
 #Zbrajam igraceve karte i njegov potez  
 
-while sum(igraceve_karte < 21):
+while sum(igraceve_karte) < 21:
   ispis = str(input("Stay or Hit"))
   if ispis == "Hit":
     igraceve_karte.append(random.randint(1,11))
@@ -40,7 +40,7 @@ while sum(igraceve_karte < 21):
       print("Kuca pobjeduje!")
     elif sum(igraceve_karte) == sum(dilerove_karte):
       print("Push! Ulozi vam se vračaju.")
-     else:
+    else:
       print("Dobili ste!")
       break
       
