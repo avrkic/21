@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T19:33:27.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ZX-jhG6f2pWuCXzBJ2Ar" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-24T19:50:14.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="I1pPG68zpsxRPoEc-6y7" version="14.2.7" type="github" pages="9">
   <diagram id="gBrkXUR-gjfU9QfjnMFt" name="Dijagram korištenja 21">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QjQTOwq7k-0RjWiP10hK" name="Igranje 21">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="UFlYDr-B3g-Tg2c9N5D9-0" />
         <mxCell id="UFlYDr-B3g-Tg2c9N5D9-1" parent="UFlYDr-B3g-Tg2c9N5D9-0" />
@@ -151,7 +151,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kx71zB4Wol-LrBlIHvHo" name="Dijagram podaktivnosti unosa igrača">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="SCyd8W-LXw6WJe8JgeKQ-0" />
         <mxCell id="SCyd8W-LXw6WJe8JgeKQ-1" parent="SCyd8W-LXw6WJe8JgeKQ-0" />
@@ -228,7 +228,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jJaSz2A1YhvTiS2fluQO" name="Dijagram podaktivnost dijeljenja karata">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gmjp0lytDs2HwNS64izx-0" />
         <mxCell id="gmjp0lytDs2HwNS64izx-1" parent="gmjp0lytDs2HwNS64izx-0" />
@@ -321,7 +321,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wvaVMmBKBg1jfdbOvKmT" name="Dijagram podaktivnosti igranja ruke">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="g5lteKaAT_-2tOi3wa7b-0" />
         <mxCell id="g5lteKaAT_-2tOi3wa7b-1" parent="g5lteKaAT_-2tOi3wa7b-0" />
@@ -560,7 +560,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kovj5Vgvz8VHMxRpF5NH" name="Dijagram opdaktivnosti rezultata">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="K_IwpK76xLawtsPIEpOv-0" />
         <mxCell id="K_IwpK76xLawtsPIEpOv-1" parent="K_IwpK76xLawtsPIEpOv-0" />
@@ -587,7 +587,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="718FPvRdFodixKUkLZ-T" name="Dijagram Klasa Arhitekture 21">
-    <mxGraphModel dx="2333" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="kBsFt_UansEVVej1kBov-0" />
         <mxCell id="kBsFt_UansEVVej1kBov-1" parent="kBsFt_UansEVVej1kBov-0" />
@@ -603,7 +603,7 @@
         <mxCell id="kBsFt_UansEVVej1kBov-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kBsFt_UansEVVej1kBov-18" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kBsFt_UansEVVej1kBov-22" value="Igra" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="kBsFt_UansEVVej1kBov-1" vertex="1">
+        <mxCell id="kBsFt_UansEVVej1kBov-22" value="Igra" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="kBsFt_UansEVVej1kBov-1" vertex="1">
           <mxGeometry x="-100" y="256" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="kBsFt_UansEVVej1kBov-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="kBsFt_UansEVVej1kBov-22" vertex="1">
@@ -723,7 +723,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iJ91_XHJn7Vlk29owCrn" name="Dijagram Klasa Modela 21">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="hUlmtpuUh8Bzxq0zOUJ0-0" />
         <mxCell id="hUlmtpuUh8Bzxq0zOUJ0-1" parent="hUlmtpuUh8Bzxq0zOUJ0-0" />
@@ -868,7 +868,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1tS8qpcMDHtC16mnCVCO" name="Dijagram klasa pogleda 21">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="tB3rybFfZ1uivN0dY0GX-0" />
         <mxCell id="tB3rybFfZ1uivN0dY0GX-1" parent="tB3rybFfZ1uivN0dY0GX-0" />
