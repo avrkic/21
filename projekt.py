@@ -197,3 +197,4 @@ def pokazi_sve(igrac,diler):
         igraceva_ruka1 += igrac.karte[i].zog + igrac.karte[i].naziv + ' '
     print("\nIgraceva ruka:" + igraceva_ruka1)
     print("Zbroj igracevih karata: ", igrac.vrijednost)
+    
