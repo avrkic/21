@@ -111,3 +111,89 @@ class Zetoni:
         self.ukupno -= self.ulog
 
 def provjera_beta(zetoni):
+    while True:
+        try:
+            zetoni.ulog = int(input("Koliko zelite uloziti?"))
+        except ValueError:
+            print("Mora biti broj")
+        else:
+            if zetoni.ulog > zetoni.ukupno:
+                print("Nemas dovoljno, imas: ",zetoni.ukupno)
+            else:
+                break
+
+#hitanje
+def udari (spil,ruka):
+    ruka.dodaj_kartu(spil.dili())
+    ruka.primjena_asova_()
+
+# odabir hit or stay
+
+
+def udari_ili_ostani(spil,ruka,zetoni):
+    global igrase
+    as_za_double =False
+    while True:
+        for i in range(len(ruka.karte)):
+            if ruka.karte[i].naziv == 'A':
+                as_za_double = True
+
+        provjera_double = ((ruka.vrijednost > 8 and ruka.vrijednost < 12) or (as_za_double and (ruka.vrijednost - 10 > 8 and ruka.vrijednost - 10 < 12))) and zetoni.ulog <= (zetoni.ukupno - zetoni.ulog)
+
+        if provjera_double:
+            odabir = input("Hoces li udariti ili ostati ili duplati? 'u' ili 'o' ili 'd'")
+
+            if odabir[0].lower() == 'u':
+                udari(spil, ruka)  # pozivam udarac
+
+            elif odabir[0].lower() == 'o':
+                print("Ostao si. Dilerov je red!")
+                igrase = False
+            elif odabir[0].lower() == 'd':
+                print("Duplao si dilerov red!")
+                zetoni.ulog += zetoni.ulog
+                udari(spil, ruka)
+                igrase = False
+            else:
+                print("Error pokusaj opet")
+                continue
+            break
+
+        else:
+            odabir = input("Hoces li udariti ili ostati? 'u' ili 'o'")
+
+            if odabir[0].lower() == 'u':
+                udari(spil,ruka)   #pozivam udarac
+
+            elif odabir[0].lower() == 'o':
+                print("Ostao si. Dilerov je red!")
+                igrase = False
+
+            else:
+                print("Error pokusaj opet")
+                continue
+            break
+
+#Pokazivanje karata
+
+def pokazi_pocetno(igrac,diler):
+    print('Dilerova ruka: Neotkrivena karta i', diler.karte[0].zog + diler.karte[0].naziv)
+    duz = len(igrac.karte)
+    igraceva_ruka = ''
+    for i in range(duz):
+        igraceva_ruka += igrac.karte[i].zog + igrac.karte[i].naziv + ' '
+    print("\nIgraceva ruka: " + igraceva_ruka)
+
+def pokazi_sve(igrac,diler):
+    dilerova_ruka1 = ''
+    duz_dilera = len(diler.karte)
+    for i in range(duz_dilera):
+        dilerova_ruka1 += diler.karte[i].zog + diler.karte[i].naziv + ' '
+    print("\nDilerova ruka", dilerova_ruka1, "\n")
+    print("Dilerov zbroj", diler.vrijednost)
+    duz1 = len(igrac.karte)
+    igraceva_ruka1 = ''
+    for i in range(duz1):
+        igraceva_ruka1 += igrac.karte[i].zog + igrac.karte[i].naziv + ' '
+    print("\nIgraceva ruka:" + igraceva_ruka1)
+    print("Zbroj igracevih karata: ", igrac.vrijednost)
