@@ -103,3 +103,11 @@ class Zetoni:
     def __init__(self):
         self.ukupno = 100
         self.ulog = 0
+
+    def pobjeda(self):
+        self.ukupno += self.ulog
+
+    def poraz(self):
+        self.ukupno -= self.ulog
+
+def provjera_beta(zetoni):
