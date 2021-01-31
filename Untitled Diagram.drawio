@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T20:08:49.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="WvnFGV8j0otbQZ22WjtZ" version="14.2.9" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-01-31T20:36:39.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="WoNcr34HTSYFgWzFO7Nh" version="14.2.9" type="github" pages="14">
   <diagram id="gBrkXUR-gjfU9QfjnMFt" name="Dijagram korištenja 21">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1127,8 +1127,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="-u3yHnxpX_sOQnWRe09l" name="Page-13">
-    <mxGraphModel dx="700" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="-u3yHnxpX_sOQnWRe09l" name="dijagram slijeda dijeljenja karata">
+    <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Iw8giNaoIBqv-HJwK07q-0" />
         <mxCell id="Iw8giNaoIBqv-HJwK07q-1" parent="Iw8giNaoIBqv-HJwK07q-0" />
@@ -1156,7 +1156,7 @@
             <mxPoint x="320" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9SiJht4UgC_qYJnS7KP-1" value="1:unesiIgraca()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-9SiJht4UgC_qYJnS7KP-0">
+        <mxCell id="-9SiJht4UgC_qYJnS7KP-1" value="1: Dijeljenje karata" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-9SiJht4UgC_qYJnS7KP-0">
           <mxGeometry x="-0.7867" y="-5" relative="1" as="geometry">
             <mxPoint x="44" y="-15" as="offset" />
           </mxGeometry>
@@ -1190,6 +1190,182 @@
         <mxCell id="-9SiJht4UgC_qYJnS7KP-8" value="3:karte = udari()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-9SiJht4UgC_qYJnS7KP-7">
           <mxGeometry x="-0.7867" y="-5" relative="1" as="geometry">
             <mxPoint x="53" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bgk3W9_KCSoBcUyyol5C-1" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="Iw8giNaoIBqv-HJwK07q-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="330" as="sourcePoint" />
+            <mxPoint x="480" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bgk3W9_KCSoBcUyyol5C-2" value="4:karte = double()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bgk3W9_KCSoBcUyyol5C-1">
+          <mxGeometry x="-0.7867" y="-5" relative="1" as="geometry">
+            <mxPoint x="53" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bgk3W9_KCSoBcUyyol5C-11" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="Iw8giNaoIBqv-HJwK07q-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="100" y="250" as="sourcePoint" />
+            <mxPoint x="100" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="250" />
+              <mxPoint x="620" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bgk3W9_KCSoBcUyyol5C-12" value="loop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bgk3W9_KCSoBcUyyol5C-11">
+          <mxGeometry x="-0.7867" y="-5" relative="1" as="geometry">
+            <mxPoint x="-134" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="I5hLdKDKH_ux8gQUMgqv" name="Page-14">
+    <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-0" />
+        <mxCell id="eBaeksSLf_7G3ircnkHM-1" parent="eBaeksSLf_7G3ircnkHM-0" />
+        <mxCell id="eBaeksSLf_7G3ircnkHM-2" value="main" style="html=1;" vertex="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry x="140" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-3" value="igra: Igra" style="html=1;" vertex="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry x="280" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-4" value="prikaz: prikaz igre" style="html=1;" vertex="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry x="450" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-6" value=":karta" style="html=1;" vertex="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry x="590" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-7" value=":spil" style="html=1;" vertex="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry x="740" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-8" value=":Igrac" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry x="60" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="170" as="sourcePoint" />
+            <mxPoint x="80" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="194.5" y="140" as="sourcePoint" />
+            <mxPoint x="195" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-16" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="334.5" y="140" as="sourcePoint" />
+            <mxPoint x="335" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="504.5" y="140" as="sourcePoint" />
+            <mxPoint x="505" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="644.5" y="140" as="sourcePoint" />
+            <mxPoint x="645" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="140" as="sourcePoint" />
+            <mxPoint x="800.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-21" value="1: igranjeRuke()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eBaeksSLf_7G3ircnkHM-20">
+          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="220" as="sourcePoint" />
+            <mxPoint x="500" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBaeksSLf_7G3ircnkHM-23" value="2: prikaz pocetka ruke (ime)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eBaeksSLf_7G3ircnkHM-22">
+          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-0" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="290" y="240" as="sourcePoint" />
+            <mxPoint x="290" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="240" />
+              <mxPoint x="560" y="440" />
+              <mxPoint x="290" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-1" value="loop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2jw1CoUnUPCfXHIDUOew-0">
+          <mxGeometry x="-0.7867" y="-5" relative="1" as="geometry">
+            <mxPoint x="-134" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-3" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="500" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-4" value="3: izbor: OdaberiAkciju()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2jw1CoUnUPCfXHIDUOew-3">
+          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="360" as="sourcePoint" />
+            <mxPoint x="500" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-8" value="4: prikaziDobivenuKartu(karta)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2jw1CoUnUPCfXHIDUOew-7">
+          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="410" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-10" value="jacaRuka(igracevaRuka,DealerovaRuka)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2jw1CoUnUPCfXHIDUOew-9">
+          <mxGeometry x="-0.1956" y="-1" relative="1" as="geometry">
+            <mxPoint x="29" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="eBaeksSLf_7G3ircnkHM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="800" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jw1CoUnUPCfXHIDUOew-12" value="ImeKarata" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2jw1CoUnUPCfXHIDUOew-11">
+          <mxGeometry x="0.1021" relative="1" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
