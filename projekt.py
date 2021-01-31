@@ -198,3 +198,68 @@ def pokazi_sve(igrac,diler):
     print("\nIgraceva ruka:" + igraceva_ruka1)
     print("Zbroj igracevih karata: ", igrac.vrijednost)
     
+#scenariji
+
+
+def igrac_busta(igrac,diler,zetoni):
+    print("Presli ste 21! Izgubili ste!")
+    zetoni.poraz()
+
+
+def igrac_pobjeduje(igrac,diler,zetoni):
+    print("Pobjedili ste!")
+    zetoni.pobjeda()
+
+
+def diler_busta(igrac,diler,zetoni):
+    print("Diler je presao 21! Dobili ste!")
+    zetoni.pobjeda()
+
+def diler_pobjeduje(igrac,diler,zetoni):
+    print("Diler pobjeduje!")
+    zetoni.poraz()
+
+
+def push(igrac,diler):
+    print("Izjednaceni ste! Vracaju vam se vasi ulozi!")
+
+
+#Igramo
+
+#print
+pi = PrikazIgre()
+pi.pikaziPocetakIgre()
+
+# igrac zetoni
+igracevi_zetoni = Zetoni()
+
+ime_igraca=""
+while ime_igraca == "":
+    ime_igraca = input("Unesite zeljeno korisnicko ime: ")
+
+try:
+    igracevi_zetoni.ukupno = (int)(input("Sa koliko zetona zelite uci"))
+except:
+    print("Niste unijeli valjan broj te vam je dodjeljeno 100")
+
+
+
+
+while True:
+    #Stvori misaj
+    spil = Spil()
+    spil.misaj()
+    #Igrac ruka
+    igraca = Ruka()
+    igraca.dodaj_kartu(spil.dili())
+    igraca.dodaj_kartu(spil.dili())
+    #Diler ruka
+    diler = Ruka()
+    diler.dodaj_kartu(spil.dili())
+    diler.dodaj_kartu(spil.dili())
+
+    #Igrac ulog
+    provjera_beta(igracevi_zetoni)
+
+    #Karte sa dilerovom sakrivenom
+    pokazi_pocetno(igraca,diler)
