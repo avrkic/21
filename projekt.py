@@ -263,3 +263,53 @@ while True:
 
     #Karte sa dilerovom sakrivenom
     pokazi_pocetno(igraca,diler)
+while igrase:  #pozivam hit or stay
+
+        #izbor
+        udari_ili_ostani(spil,igraca,igracevi_zetoni)
+
+        #pokazi kartu sa dilerovom sakrivenom
+        pokazi_pocetno(igraca, diler)
+
+        #ako je priko 21 pokrecemo bust i gasim petlju
+        if igraca.vrijednost > 21:
+            igrac_busta(igraca,diler,igracevi_zetoni)
+
+            break
+
+
+    #ako igrac nije busta diler hita do 17
+    if igraca.vrijednost <=21:
+
+        while diler.vrijednost<17:
+            udari(spil,diler)
+            diler.primjenaasova()
+
+        #pokazi sve karte
+        pokazi_sve(igraca,diler)
+
+        #provjere scenarija
+
+        if diler.vrijednost >21:
+            diler_busta(igraca,diler,igracevi_zetoni)
+        elif diler.vrijednost > igraca.vrijednost:
+            diler_pobjeduje(igraca,diler,igracevi_zetoni)
+        elif diler.vrijednost < igraca.vrijednost:
+            igrac_pobjeduje(igraca,diler,igracevi_zetoni)
+        else:
+            push(igraca,diler)
+
+    #Koliko je igracu ostalo zetona
+    print("\n"+ ime_igraca + " ostalo vam je : ",igracevi_zetoni.ukupno)
+    if igracevi_zetoni.ukupno == 0:
+        print("Izgubili ste!")
+        exit()
+    else:
+        #Os opet igrat
+        nova_igra = input("Zelite li ponovno igrati? Unesite 'D' ili 'N' ")
+        if nova_igra[0].lower() == 'd':
+            igrase = True
+            continue
+        else:
+            print("Ispratit ce vas zastitar!")
+            break
