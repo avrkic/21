@@ -263,7 +263,7 @@ while True:
 
     #Karte sa dilerovom sakrivenom
     pokazi_pocetno(igraca,diler)
-while igrase:  #pozivam hit or stay
+    while igrase:  #pozivam hit or stay
 
         #izbor
         udari_ili_ostani(spil,igraca,igracevi_zetoni)
